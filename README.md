@@ -2,7 +2,7 @@
  
 ## Overview
 
-This project is the implementation and evaluation of four Convolutional Neural Network (CNN) models for classifying brain tumours using MRI images. The project was conducted as part of a study on the application of deep learning techniques in medical imaging, aiming to improve the classification accuracy of various brain tumour types, including **Glioma, Meningioma, Pituitary Tumours, and No Tumour.**
+This project is the implementation and evaluation of four Convolutional Neural Network (CNN) models for classifying brain tumours using MRI images. The project was conducted as part of a study on the application of deep learning techniques in medical imaging, aiming to improve the classification accuracy of various brain tumour types, including **Glioma, Meningioma, Pituitary Tumours, and No Tumour.** The datasets were obtained from Kaggle.
 
 ## Project Details 
 
@@ -41,28 +41,30 @@ The classification process involved several steps:
      - SoftMax activation for classification.
 
    - **9-Layer CNN:**
-    - 9 Convolutional Layers with MaxPooling after each layer.
-    - Two fully connected layers for enhanced feature abstraction.
-    - SoftMax activation for classification.
-      
+     - 9 Convolutional Layers with MaxPooling after each layer.
+     - Two fully connected layers for enhanced feature abstraction.
+     - SoftMax activation for classification.
+       
    - **VGG16 and VGG19:**
-    - Pre-trained convolutional layers frozen to retain existing feature extraction capabilities.
-    - Added custom dense layers for final classification.
-    - SoftMax activation for classification.
+     - Pre-trained convolutional layers frozen to retain existing feature extraction capabilities.
+     - Added custom dense layers for final classification.
+     - SoftMax activation for classification.
       
 ## Setup Instructions
 To execute the code, follow these steps:
 1. **Setup Environment**:
-    - Ensure you have Python and your preferred IDE installed.
+    - Ensure you have Python and Jupyter Notebook installed.
     - Install necessary libraries using the following commands:
       ```bash
       pip install numpy pandas matplotlib scikit-learn
       ```
 
 2. **Download Dataset**:
-    - Ensure the `dataset` folder is available in the same directory as the codes.
+    - Ensure the `Training` and `Testing` folders are available in the same directory as the codes.
 
 3. **Running the Codes**:
-    - Open the IDE and navigate to the `visualSegment.py` file.
-    - Run the file in the terminal to see the results.
-    - To look at the visualizations, run all the cells in `imageSegment.py` notebook in the IDE or in Jupyter Notebook. 
+    - Open Jupyter Notebook and navigate to the `Oroject_Codes` file.
+    - Run all the cells sequentially to see the workflow and the results.
+
+ ## References
+ - Dataset: [Kaggle Brain Tumor Classification (MRI)](https://www.kaggle.com/datasets/sartajbhuvaji/brain-tumor-classification-mri?select=Training)
