@@ -36,9 +36,9 @@ The classification process involved several steps:
 2. **Model Training and Evaluation:**
    Each CNN model was designed and trained using the preprocessed MRI images. Key architectural details for each model are summarized below:
    - **3-Layer CNN:**
-    - 3 Convolutional Layers followed by MaxPooling.
-    - Flatten layer followed by 2 Dense layers.
-    - SoftMax activation for classification.
+     - 3 Convolutional Layers followed by MaxPooling.
+     - Flatten layer followed by 2 Dense layers.
+     - SoftMax activation for classification.
 
    - **9-Layer CNN:**
     - 9 Convolutional Layers with MaxPooling after each layer.
