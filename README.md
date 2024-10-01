@@ -63,7 +63,7 @@ To execute the code, follow these steps:
     - Ensure the `Training` and `Testing` folders are available in the same directory as the codes.
 
 3. **Running the Codes**:
-    - Open Jupyter Notebook and navigate to the `Oroject_Codes` file.
+    - Open Jupyter Notebook and navigate to the `Project_Codes` file.
     - Run all the cells sequentially to see the workflow and the results.
 
  ## References
